@@ -4,74 +4,60 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <title>Bootstrap Demo</title>
+    <meta charset="UTF-8">
+    <title>Bootstrap Demo</title>
 
-  <!-- Bring in our bootstrap stylesheet -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
 
 </head>
 
 <body>
 
-  <!-- Our rows function in containers (grid created). -->
-  <div class="container">
-
-    <!-- Our columns function in rows. -->
-    <div class="row">
-
-      <!-- Columns have 12 areas of width to work with. -->
-
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-        <!-- This is column 1 of 3 -->
-      </div>
-
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-        <!-- This is column 2 of 3 -->
-      </div>
-
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-
-        <!-- This is column 3 of 3 -->
-      </div>
-
-      <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
-    </div>
-
-  </div>
+    <!-- Our rows function in containers (grid created). -->
+    <div class="container">
 
 
-  <!-- Creates the Overall Grid -->
-  <div class="container">
 
-    <!-- First Row -->
-    <div class="row">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">WebSiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </nav>
 
-      <!-- First (and only column) -->
-      <div class="col-md-12">
-        <h1>I'm in Column 1 of 1. I stretch the entire width. And keep going.</h1>
-      </div>
-    </div>
 
-    <!-- Second Row -->
-    <div class="row">
 
-      <!-- First of two columns -->
-      <div class="col-md-6">
-        <h1>I'm in Column 1 of 2</h1>
-      </div>
 
-      <!-- Second of two columns -->
-      <div class="col-md-6">
-        <h1>I'm in Column 2 of 2</h1>
-      </div>
+
+
+
+
+
 
     </div>
 
-  </div>
+
+
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 
